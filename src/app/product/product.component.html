@@ -1,0 +1,7 @@
+<div class="product">
+    <h1>{{product.title | titlecase}}</h1>
+    <p>{{product.description}}</p>
+    <img [src]="product.img"/>
+    <p>{{product.price | currency: "EUR" : 'code' }} {{product.sold}}/{{product.stock}} restant.</p>
+    <button (click)="onBuy()">Ajouter {{product.title | uppercase}} au panier</button>
+</div>

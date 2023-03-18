@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    font-family: Roboto, Helvetica, sans-serif;
+}
+p, h1, button {
+    color:aliceblue;
+}
+body {
+    background: rgb(88,88,88);
+    background: linear-gradient(171deg, rgba(88,88,88,1) 0%, rgba(61,51,147,1) 100%, rgba(70,60,156,1) 100%);
+}
